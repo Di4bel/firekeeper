@@ -27,7 +27,11 @@ if(cmd === `${prefix}firekeeper_soul`){
 });
 
 
-
+client.on('message', message => {
+    if (message.content === 'hello') {
+    	message.reply('Welcome Home, ashen one. Speak thine heart's desire');
+  	}
+});
 
 
 
