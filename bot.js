@@ -18,7 +18,7 @@ client.on('message', async message => {
     	message.channel.send("...Ashen one, are these... Are these eyes? How gracious of thee, ashen one. The very things we Fire Keepers have been missing.");
   	}
 if (message.content === "new") {
-    	message.channel.send("Welcome to the bonfire, Unkindled One. I am a Fire Keeper.I tend to the flame, and tend to thee. The Lords have left their thrones, and must be deliver'd to them. To this end, I am at thy side");
+    	message.channel.send("Welcome to the bonfire, Unkindled One. I am a Fire Keeper. I tend to the flame, and tend to thee. The Lords have left their thrones, and must be deliver'd to them. To this end, I am at thy side");
   	}
 
 
