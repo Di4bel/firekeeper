@@ -9,7 +9,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'hello') {
-    	message.channel.send('Welcome Home, ashen one. Speak thine heart's desire')
+    	message.channel.send('Welcome Home, ashen one. Speak thine heart's desire');
   	}
  if(cmd === `hello`){
   return message.channel.send("Welcome Home, ashen one. Speak thine heart's desire");
