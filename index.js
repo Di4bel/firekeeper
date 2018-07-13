@@ -39,4 +39,4 @@ if(cmd === `${prefix}firekeeper_soul`){
 
 
 
-  bot.login(botconfig.token);
+  bot.login(process.env.BOT_TOKEN);
