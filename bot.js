@@ -24,7 +24,6 @@ if(cmd === `${prefix}firekeeper_soul`){
   return message.channel.send("…Ashen one, this is.. …much like what lies within me… Then let it find its own place, within my bosom. She will understand. We are both Fire Keepers, after all");
 }
 
-});
 
 
 client.on('message', message => {
