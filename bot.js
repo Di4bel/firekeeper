@@ -14,7 +14,7 @@ client.on('message', async message => {
  if(cmd === `hello`){
   return message.channel.send("Welcome Home, ashen one. Speak thine heart's desire");
 }
-  if(cmd === `firekeeper_soul`){
+  if(cmd === "firekeeper_soul"){
   return message.channel.send("…Ashen one, this is.. …much like what lies within me… Then let it find its own place, within my bosom. She will understand. We are both Fire Keepers, after all");
 }
 
