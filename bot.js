@@ -2,10 +2,9 @@ const Discord = require("discord.js");
 
 const client = new Discord.Client({disableEveryone: true});
 
-bot.on("ready", async () => {
-  console.log(`${bot.user.username} is online!`);
 
-  bot.user.setActivity('at the firelink shrine')
+client.on('ready', () => {
+    console.log('I am ready!');
 });
 
 
