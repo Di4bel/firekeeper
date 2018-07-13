@@ -1,7 +1,6 @@
-const botconfig = require("./botconfig.json");
 const Discord = require("discord.js");
 
-const bot = new Discord.Client({disableEveryone: true});
+const client = new Discord.Client({disableEveryone: true});
 
 bot.on("ready", async () => {
   console.log(`${bot.user.username} is online!`);
@@ -10,7 +9,7 @@ bot.on("ready", async () => {
 });
 
 
-bot.on("message", async message => {
+client.on("message", async message => {
   if(message.author.bot) return;
   if(message.channel.type === "dm") return;
 
@@ -39,4 +38,4 @@ if(cmd === `${prefix}firekeeper_soul`){
 
 
 
-  bot.login(process.env.BOT_TOKEN);
+  client.login(process.env.BOT_TOKEN);
