@@ -21,8 +21,7 @@ if (message.content === "new") {
     	message.channel.send("Welcome to the bonfire, Unkindled One. I am a Fire Keeper. I tend to the flame, and tend to thee. The Lords have left their thrones, and must be deliver'd to them. To this end, I am at thy side");
   	}
     if (message.content === "Knight") {
-    	message.channel.send("The Knight Class 
-              https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/knight_small.jpg");
+    	message.channel.send("The Knight Class  https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/knight_small.jpg");
   	}
    
 
