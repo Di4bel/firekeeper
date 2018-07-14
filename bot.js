@@ -5,6 +5,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('I am ready!');
+    client.user.setActivity("at the firelink shrine")
 });
 
 client.on('message', async message => {
