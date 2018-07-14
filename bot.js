@@ -50,7 +50,9 @@ if (message.content === "new") {
    if (message.content === "Deprived") {
     	message.channel.send("The Deprived Class  https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/deprived_small.jpg");
   	}
-  
+  if (message.content === "Classes") {
+      message.channel.send("Knight  Mercenary  Warrior  Herald  Thief  Assassin  Sorcerer  Pyromancer  Cleric  Deprived ");
+    }
   
 
 
