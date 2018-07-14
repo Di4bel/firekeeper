@@ -23,7 +23,35 @@ if (message.content === "new") {
     if (message.content === "Knight") {
     	message.channel.send("The Knight Class  https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/knight_small.jpg");
   	}
-   
+         if (message.content === "Mercenary") {
+    	message.channel.send("The Mercenary CLass  https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/mercenary_small.jpg");
+  	}
+   if (message.content === "Warrior") {
+    	message.channel.send("The Warrior Class  https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/warrior_small.jpg");
+  	}
+   if (message.content === "Herald") {
+    	message.channel.send("The Herald Class  https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/herald_small.jpg");
+  	}
+   if (message.content === "Thief") {
+    	message.channel.send("The Thief Class  https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/thief_small.jpg");
+  	}
+   if (message.content === "Assassin") {
+    	message.channel.send("The Assassin Class  https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/assassin_small.jpg");
+  	}
+   if (message.content === "Sorcerer") {
+    	message.channel.send("The Sorcerer Class  https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/sorcerer_small.jpg");
+  	}
+   if (message.content === "Pyromancer") {
+    	message.channel.send("The Pyromancer Class  https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/pyromancer_small.jpg");
+  	}
+   if (message.content === "Cleric") {
+    	message.channel.send("The Cleric Class  https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/cleric_small.jpg");
+  	}
+   if (message.content === "Deprived") {
+    	message.channel.send("The Deprived Class  https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/deprived_small.jpg");
+  	}
+  
+  
 
 
 
